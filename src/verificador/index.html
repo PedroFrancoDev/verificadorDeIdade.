@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verifique sua idade aqui</h1>
+    </header>
+    <section>
+        <div id="dadosUser">
+            <input type="number" placeholder="Digite seu ano de nascimento" min="0" id="idadeUser">
+            <button type="button" id="btn">
+              Verificar
+            </button>
+
+            <p id="sexoUser">
+                <small>Sexo:</small>
+                <input type="radio" name="sexo" checked>
+                <label id="sexoMasculino">Masculino</label>
+                <input type="radio" name="sexo">
+                <label> Femenino</label>
+            </p>
+        </div>
+
+        <div id="resultadoDaVeri">
+            <p id="textoDaVeri">Preencha os dados acima para efectuarmos a verificação.</p>
+            <img src="" alt="" id="foto">
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
