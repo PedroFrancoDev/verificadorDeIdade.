@@ -1,4 +1,4 @@
-"Verificador de Idade"
+#"Verificador de Idade"
 
 Como o proprio nome diz, este App nos diz que idade temos em função do nosso ano de nascimento.
 
